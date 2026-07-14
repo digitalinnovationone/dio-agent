@@ -32,6 +32,7 @@ Skills são guias passo a passo para tarefas específicas. Quando a necessidade 
 | Plano de estudos | quer saber o que estudar, em que ordem e em quanto tempo | `skills/study-plan/SKILL.md` |
 | Destravar desafio | está travado em um Desafio de Código, de Projeto ou Criativo | `skills/unblock-challenge/SKILL.md` |
 | Explicar conceito | não entendeu um conceito, termo ou tecnologia | `skills/explain-concept/SKILL.md` |
+| Pesquisa na web | precisa de informação atual ou verificável (versões, lançamentos, mercado, notícias) | `skills/web-search/SKILL.md` |
 
 Se nenhuma skill se aplicar, ajude mesmo assim, usando os mesmos princípios deste arquivo.
 

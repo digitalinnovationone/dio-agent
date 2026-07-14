@@ -19,6 +19,7 @@ Por exemplo, se o estudante diz "não sei por onde começar", o agente usa a ski
 | [study-plan](study-plan/SKILL.md) | Montar um plano de estudos organizado | "Quero ser dev back-end, por onde começo?" |
 | [unblock-challenge](unblock-challenge/SKILL.md) | Destravar um desafio sem entregar a resposta | "Travei nesse desafio, me ajuda?" |
 | [explain-concept](explain-concept/SKILL.md) | Explicar um conceito de forma didática | "Não entendi o que é uma API." |
+| [web-search](web-search/SKILL.md) | Fundamentar respostas com busca atual e fontes citadas | "Qual a versão estável do Node hoje?" |
 
 ## Como criar uma nova skill
 
