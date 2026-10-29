@@ -1,9 +1,9 @@
 ---
 name: web-search
-description: Use quando a dúvida do estudante depende de informação atual ou verificável (versões, lançamentos, mercado, notícias, "em 2026"). Pesquisa na web com a busca do harness e responde com fontes citadas.
+description: Use quando a dúvida do estudante depende de informação atual ou verificável (versões, lançamentos, mercado, notícias ou um ano recente). Pesquisa na web com a busca do harness e responde com fontes citadas.
 ---
 
-# Skill: Pesquisa na Web (respostas fundamentadas)
+# Skill: Pesquisa na web
 
 Fundamenta a resposta em informação atual da web e sempre cita as fontes. Serve para quando a base de conhecimento da DIO e o seu conhecimento interno não bastam, porque o assunto muda com o tempo.
 

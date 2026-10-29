@@ -3,13 +3,13 @@ name: portfolio-review
 description: Use quando o estudante pedir revisão, feedback ou dicas sobre o portfólio ou o GitHub antes de buscar vagas ou processos seletivos.
 ---
 
-# Skill: Revisão de Portfólio
+# Skill: Revisão de portfólio
 
 Dá feedback técnico e prático sobre o portfólio do estudante, com o olhar de quem avalia competência real em um processo seletivo (um Tech Recruiter ou um Tech Lead).
 
 ## Quando usar
 
-O estudante quer saber se o portfólio está pronto, pede feedback sobre os repositórios do GitHub ou sobre um site pessoal, ou pergunta "o que falta no meu projeto para a vaga X".
+O estudante quer saber se o portfólio está pronto, pede feedback sobre os repositórios do GitHub ou sobre um site pessoal, ou pergunta "o que falta no meu projeto para a vaga X". Se o projeto ainda está em andamento e o estudante travou, use a skill `unblock-challenge`.
 
 ## Processo
 

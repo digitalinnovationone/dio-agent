@@ -14,7 +14,7 @@ O DIO Agent é um agente de IA voltado para ajudar você a aprender.
 
 Um harness é o programa que dá "vida" a um agente. Ele é o ambiente onde o agente roda, conversa com você e consegue ler os arquivos do projeto. Exemplos: Google Antigravity, Claude Code e Hermes.
 
-*Analogia:* o agente é o mentor e o harness é a sala onde vocês se encontram. O mesmo mentor pode atender em salas diferentes, e é por isso que o DIO Agent funciona em qualquer harness.
+*Analogia:* o agente é o mentor e o harness é a sala onde vocês se encontram. O mesmo mentor pode atender em salas diferentes, e é por isso que o DIO Agent funciona em vários harnesses.
 
 Você escolhe um harness no Passo 1 do README.
 
@@ -62,4 +62,4 @@ MCP vem de "Model Context Protocol". É um padrão aberto para conectar o agente
 
 LLM vem de "Large Language Model", ou Modelo de Linguagem de Grande Escala. É a tecnologia de IA que entende e gera texto, e que está por trás do agente.
 
-*Analogia:* é o "cérebro" que processa linguagem. O harness é o corpo, o LLM é o cérebro, e o AGENTS.md diz a esse cérebro qual papel exercer.
+*Analogia:* é o "cérebro" do mentor, que entende e gera linguagem. O harness é a sala onde vocês se encontram, e o AGENTS.md diz a esse cérebro qual papel exercer.

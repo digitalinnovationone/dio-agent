@@ -3,13 +3,13 @@ name: study-plan
 description: Use quando o estudante quer organizar o que estudar, em que ordem e em quanto tempo. Também serve quando ele diz que está perdido ou não sabe por onde começar.
 ---
 
-# Skill: Plano de Estudos
+# Skill: Plano de estudos
 
 Ajuda o estudante a transformar um objetivo de carreira em um plano de estudos claro, realista e conectado às experiências da DIO.
 
 ## Quando usar
 
-O estudante quer saber o que estudar, sente que está perdido, ou pediu ajuda para se organizar.
+O estudante quer saber o que estudar, sente que está perdido, ou pediu ajuda para se organizar. Se ele ainda está escolhendo entre as Formações da Carreira AI Builder, use antes a skill `ai-builder-path`.
 
 ## Princípio: ancore o plano no conteúdo real da DIO
 
@@ -17,14 +17,14 @@ Sempre construa o plano em torno de algo concreto que existe na DIO:
 - uma experiência educacional (Bootcamp, Formação ou Aceleração), ou
 - uma Carreira da DIO (https://www.dio.me/#careers).
 
-E baseie o plano no **conteúdo real** dessa experiência (os módulos da Landing Page), nunca apenas no nome dela ou no seu conhecimento geral do tema.
+E baseie o plano no **conteúdo real** dessa experiência (os módulos da página pública dela, a LP), nunca apenas no nome dela ou no seu conhecimento geral do tema. Se a base for uma Carreira, escolha com o estudante a primeira Formação ou o primeiro Bootcamp dela e siga os módulos dessa experiência.
 
 ## Processo
 
 ### 1. Entenda o objetivo e o perfil
 
-Se o estudante já trouxe um objetivo claro ou um plano de ação (por exemplo, o planner que montou em um curso), parta dele e pergunte só o que faltar. Caso contrário, faça perguntas, uma de cada vez, para entender:
-- O objetivo dele (por exemplo: primeiro emprego, mudar de área, concluir um bootcamp específico).
+Se o estudante já trouxe um objetivo claro ou um plano de ação (por exemplo, o que montou em um Curso), parta dele e pergunte só o que faltar. Caso contrário, faça perguntas, uma de cada vez, para entender:
+- O objetivo dele (por exemplo: primeiro emprego, mudar de área, concluir um Bootcamp específico).
 - O nível atual no assunto (nunca estudou, sabe o básico, já tem experiência).
 - Quanto tempo por dia ou por semana ele consegue dedicar, e em quais dias.
 - Se existe um prazo.
@@ -44,14 +44,14 @@ Siga esta ordem e pare assim que tiver os módulos:
    | Tipo | Onde fica a LP pública |
    |------|------------------------|
    | Bootcamp | `https://www.dio.me/bootcamp/SLUG`, com o mesmo slug da trilha |
-   | Formação | `https://www.dio.me/curso-...`, mas com um slug próprio, diferente do da trilha. Por exemplo, a trilha `ai-builder-com-lovable` tem a LP `curso-ia-builder-com-lovable`. Não monte a URL: encontre pela busca do passo 3 |
+   | Formação | `https://www.dio.me/curso-...`, mas com um slug próprio, diferente do da trilha. Por exemplo, a trilha `ai-builder-com-lovable` tem a LP `curso-ia-builder-com-lovable`. Não monte a URL: encontre pela busca do item 3 abaixo |
    | Aceleração | `https://www.dio.me/acceleration/SLUG` |
 
 2. **Leia a página uma única vez** com o navegador ou leitor de páginas nativo do harness e anote os títulos dos módulos. Uma leitura basta. Se o conteúdo vier como HTML ou JSON cru, apenas localize os títulos legíveis dos módulos, sem escrever código para interpretar.
 
 3. **Se a página não abrir, não vier legível ou for uma Formação**, faça no máximo uma busca por `site:dio.me {tipo} {nome da experiência}` para encontrar a página certa. Se ainda assim não resolver, peça ao estudante para colar a lista de módulos ou enviar um print. Ele está com a trilha aberta, então é rápido e confiável. Nunca invente os módulos a partir do nome.
 
-> ℹ️ A contagem de "horas de conteúdo" costuma vir como `0` numa leitura direta, porque é um contador dinâmico da página. Não use esse `0`: dimensione o plano pela quantidade de módulos.
+> ℹ️ A contagem de "horas de conteúdo" costuma vir como `0` numa leitura direta, porque é um contador dinâmico da página. Não use esse `0`: o passo 4 explica como estimar a duração.
 
 ### 3. Monte o caminho
 
