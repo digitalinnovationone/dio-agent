@@ -2,82 +2,77 @@
 
 > Seu mentor de Inteligência Artificial para aprender mais e melhor na [DIO](https://dio.me).
 
-O **DIO Agent** é um agente de IA que acompanha você na sua jornada de estudos. Ele conhece as experiências da DIO (Bootcamps, Formações, Cursos, Desafios e muito mais) e ajuda você a estudar com mais clareza, destravar desafios e entender qualquer conceito.
+O **DIO Agent** é um agente de IA que acompanha você na sua jornada de estudos. Ele conhece as experiências da DIO (Bootcamps, Formações, Cursos, Desafios e muito mais) e ajuda você a estudar, praticar e planejar a sua carreira.
 
-E você não precisa instalar nada complicado. Em **3 passos simples**, o seu mentor de IA estará pronto para usar.
-
----
-
-## ✨ Antes de começar: dois conceitos rápidos
-
-Para usar o DIO Agent, basta entender duas palavras. As duas estão no [Glossário completo](docs/glossary.md), mas aqui vai a versão rápida:
-
-- 🧠 **Agente de IA:** um chatbot comum responde perguntas, como um buscador mais esperto. Um *agente* de IA vai além: ele lê, planeja e executa passos para te ajudar a alcançar um objetivo. É a diferença entre alguém que te explica o caminho e alguém que caminha junto com você. O DIO Agent é um agente desse tipo: um tutor particular que acompanha a sua evolução.
-
-- 🖥️ **Harness:** é o programa onde a conversa com o agente acontece. Vale a comparação: o agente é o professor, e o harness é a sala de aula. O mesmo professor pode dar aula em salas diferentes. Por isso o DIO Agent funciona em qualquer harness: você escolhe a "sala" no Passo 1, e o seu mentor continua o mesmo.
-
-Pronto. Com isso já dá para começar.
+Você não precisa saber programar nem instalar nada complicado. Em **3 passos**, o seu mentor está pronto para usar.
 
 ---
 
-## 🎯 O que o DIO Agent faz por você
+## ✨ Três palavras para começar
 
-| Você precisa de... | O DIO Agent... |
-|--------------------|----------------|
-| Saber por onde começar | Monta um plano de estudos no seu ritmo |
-| Destravar um desafio | Te guia até a solução, sem entregar a resposta pronta |
-| Entender um conceito | Explica de forma simples, com analogias e exemplos |
+- 🧠 **Agente de IA:** um chatbot responde perguntas. Um *agente* vai além: lê, planeja e executa passos para ajudar você a alcançar um objetivo. É a diferença entre alguém que explica o caminho e alguém que caminha junto com você.
+- 🖥️ **Harness:** é o programa onde o agente roda. O agente é o mentor, e o harness é a sala onde vocês se encontram. O mesmo mentor atende em salas diferentes, por isso o DIO Agent funciona em qualquer harness.
+- 🧩 **Skill:** é uma habilidade do agente, descrita em um guia passo a passo. Você não precisa chamar a skill: o agente percebe o que você precisa e usa a certa sozinho.
 
-Ele conhece os formatos da DIO: Bootcamps, Formações, Acelerações, Cursos, English4Tech, Desafios de Código, Desafios de Projeto, Desafios Criativos, Lives e Mentorias. Assim, as recomendações sempre apontam para algo que você já tem na plataforma.
+Esses e outros termos estão no [Glossário](docs/glossary.md).
 
 ---
 
 ## 🚀 Comece em 3 passos
 
-### 1️⃣ Instale um Harness
+### 1️⃣ Instale um harness
 
-O harness é o programa que dá vida ao agente. Recomendamos o **Google Antigravity**, que tem limites de uso mais generosos para quem está começando. Mas qualquer harness moderno funciona.
+Recomendamos o **Google Antigravity**, que tem limites de uso generosos para quem está começando. Mas qualquer harness da lista funciona: escolha um e siga a instalação da documentação oficial dele.
 
 | Harness | Documentação oficial |
 |---------|----------------------|
 | Google Antigravity (recomendado) | https://antigravity.google/docs |
-| Claude Code | https://docs.claude.com/en/docs/claude-code |
+| Claude Code | https://code.claude.com/docs |
 | Codex | https://developers.openai.com/codex |
 | OpenCode | https://opencode.ai/docs |
 | Hermes | https://hermes-agent.nousresearch.com/docs |
 
-Escolha um e siga o passo a passo da documentação oficial dele. Cada documentação já traz tudo certinho para o seu sistema, então a instalação é tranquila.
+### 2️⃣ Baixe o DIO Agent e abra no harness
 
-### 2️⃣ Configure o DIO Agent
+Baixe este repositório do jeito mais simples para você:
 
-Agora você vai baixar este repositório para o seu computador. Escolha a forma mais simples para você:
+- **Com Git:** `git clone https://github.com/digitalinnovationone/dio-agent.git`
+- **Sem Git:** no topo desta página, clique no botão verde **Code**, depois em **Download ZIP**, e extraia a pasta.
 
-**Opção A: com Git** (se você já usa Git)
+Depois, abra a pasta `dio-agent` no harness. Ele lê sozinho o arquivo `AGENTS.md`, e o agente já sabe quem é: o seu mentor de estudos da DIO.
 
-```bash
-git clone https://github.com/digitalinnovationone/dio-agent.git
-```
+### 3️⃣ Converse
 
-**Opção B: baixando o .zip** (se você não usa Git)
+Fale naturalmente, com as suas palavras. Nas primeiras vezes, vale usar um dos [modelos de prompt](#-modelos-de-prompt) abaixo: quanto mais contexto você dá, melhor o agente ajuda.
 
-Na página do repositório no GitHub, clique no botão verde **Code** e depois em **Download ZIP**. Em seguida, extraia a pasta em um lugar fácil de encontrar.
+---
 
-Com o repositório baixado, abra a pasta `dio-agent` no harness que você instalou. Cada harness tem o seu jeito de abrir uma pasta de projeto, e a documentação dele mostra como fazer isso.
+## 🧩 As skills do agente
 
-E é só isso! O harness lê automaticamente o arquivo `AGENTS.md` e o agente já sabe quem é: o seu mentor de estudos da DIO.
+| Skill | Para que serve | Experimente pedir |
+|-------|----------------|-------------------|
+| [Plano de estudos](skills/study-plan/SKILL.md) | Organiza o que estudar, em que ordem e em quanto tempo | "Quero concluir este bootcamp em 2 meses, me ajuda?" |
+| [Destravar desafio](skills/unblock-challenge/SKILL.md) | Conduz você até a solução de um desafio, sem dar a resposta pronta | "Travei nesse desafio, me ajuda?" |
+| [Explicar conceito](skills/explain-concept/SKILL.md) | Explica conceitos de forma simples, com analogias e exemplos | "Não entendi o que é uma API." |
+| [Pesquisa na web](skills/web-search/SKILL.md) | Responde dúvidas atuais (versões, lançamentos, mercado) com fontes citadas | "Qual a versão estável do Node hoje?" |
+| [Revisão de portfólio](skills/portfolio-review/SKILL.md) | Dá feedback sobre o seu portfólio e GitHub antes de buscar vagas | "O que falta no meu GitHub para uma vaga júnior?" |
+| [Caminho AI Builder](skills/ai-builder-path/SKILL.md) | Ajuda você a escolher o próximo passo na carreira AI Builder | "Qual Formação de IA combina comigo?" |
 
-> 🔄 **Fique de olho nas atualizações.** Não importa se você usou o Git ou o .zip: o repositório do DIO Agent evolui com o tempo. De tempos em tempos, vale voltar aqui e pegar a versão mais recente. Quem usou Git pode rodar `git pull` (ou pedir pro próprio DIO Agent rodar); quem baixou o .zip pode baixar de novo. Assim o seu mentor está sempre com o melhor que a gente tem a oferecer.
+A pesquisa na web usa a busca do seu harness. Se ele não tiver busca própria, veja [como conectar o You.com](docs/youcom-mcp.md), que tem uma opção gratuita.
 
-### 3️⃣ Hands On!
+---
 
-Agora é só conversar. Você pode falar naturalmente, com as suas palavras. Mas, principalmente nas primeiras vezes, vale usar um modelo de prompt pronto: é só copiar e preencher os campos entre colchetes. Quanto mais contexto você dá, melhor o agente ajuda.
+## 📝 Modelos de prompt
+
+Copie, preencha o que está entre colchetes e envie. Não precisa de formato perfeito: o agente pede mais detalhes se precisar.
 
 **🗺️ Plano de estudos**
 
 ```
-Quero montar um plano de estudos (se possível, com materiais complementares).
-- Meu objetivo: [ex: aprender mais sobre IA, ser dev back-end, concluir um bootcamp]
-- Experiência ou carreira da DIO: [URL ou nome do bootcamp/formação, ou de uma carreira da DIO]
+Quero montar um plano de estudos.
+- Meu objetivo: [ex: ser dev back-end, concluir um bootcamp]
+- Experiência ou carreira da DIO: [link ou nome do bootcamp, formação ou carreira]
+- O que já tenho: [objetivo, plano de ação ou planner, se tiver]
 - Meu nível hoje: [iniciante, intermediário, avançado]
 - Tempo disponível: [ex: 1 hora por dia, de segunda a sexta]
 ```
@@ -88,8 +83,7 @@ Quero montar um plano de estudos (se possível, com materiais complementares).
 Estou travado em um Desafio de [Código, Projeto ou Criativo] da DIO.
 - O que o desafio pede: [cole o enunciado ou descreva]
 - Onde eu travei: [explique o ponto da dificuldade]
-- Meu código atual: [cole aqui, se for Desafio de Código]
-- Link do repositório base: [cole aqui, se for Desafio de Projeto]
+- Meu código ou repositório: [cole o código ou o link, se tiver]
 Me ajuda a destravar sem dar a resposta pronta.
 ```
 
@@ -98,28 +92,22 @@ Me ajuda a destravar sem dar a resposta pronta.
 ```
 Me explica o conceito de [ex: API, laço de repetição, herança].
 - Meu nível: [nunca vi, já ouvi falar, quero aprofundar]
-- Onde apareceu: [ex: no curso X de um bootcamp] (opcional)
 ```
 
-Não precisa de comando especial nem de formato perfeito: o agente conduz a conversa a partir daí e pede mais detalhes se precisar.
+**🧭 Caminho AI Builder**
+
+```
+Quero escolher meu próximo passo na carreira AI Builder.
+- O que quero construir com IA: [ex: um produto para o meu negócio, um software, agentes que automatizam processos, ainda não sei]
+- Minha experiência com programação: [nenhuma, o básico, trabalho com desenvolvimento]
+- Meu objetivo: [ex: mudar de carreira, tirar uma ideia do papel]
+```
 
 ---
 
-## 🧩 As skills do agente
+## 🔄 Mantenha o DIO Agent atualizado
 
-Uma **skill** é uma habilidade do agente, descrita em um guia passo a passo. O DIO Agent vem com cinco:
-
-| Skill | Para que serve |
-|-------|----------------|
-| [Plano de estudos](skills/study-plan/SKILL.md) | Organiza o que estudar, em que ordem e em quanto tempo |
-| [Destravar desafio](skills/unblock-challenge/SKILL.md) | Conduz você até a solução de um desafio, sem dar a resposta pronta |
-| [Explicar conceito](skills/explain-concept/SKILL.md) | Explica conceitos de forma didática, com analogias e exemplos |
-| [Pesquisa na web](skills/web-search/SKILL.md) | Responde dúvidas atuais (versões, lançamentos, mercado) com fontes citadas |
-| [Revisão de portfólio](skills/portfolio-review/SKILL.md) | Dá feedback sobre o seu portfólio e GitHub antes de buscar vagas |
-
-Você não precisa "chamar" uma skill. O agente percebe o que você precisa e usa a skill certa sozinho.
-
-> 🔎 A skill de **Pesquisa na web** usa a busca do You.com, que você conecta uma única vez ao seu harness (há uma opção gratuita e sem cadastro). Veja o passo a passo em [Conectar a busca do You.com](docs/youcom-mcp.md).
+O DIO Agent evolui com o tempo. Se você usou Git, rode `git pull` na pasta (ou peça para o próprio agente rodar). Se baixou o .zip, baixe de novo.
 
 ---
 
@@ -127,41 +115,28 @@ Você não precisa "chamar" uma skill. O agente percebe o que você precisa e us
 
 ```
 dio-agent/
-├── README.md                        Este guia
-├── AGENTS.md                        Definição do agente (lida por qualquer harness)
-├── CLAUDE.md                        Atalho para o Claude Code
-│
+├── README.md                Este guia
+├── AGENTS.md                Definição do agente (lida por qualquer harness)
+├── CLAUDE.md                Atalho para o Claude Code
 ├── agent/
-│   ├── persona.md                   A personalidade e o tom do agente
-│   └── knowledge/
-│       ├── dio-platform.md          O que é a DIO
-│       └── learning-experiences.md  Os formatos de aprendizado da DIO
-│
-├── skills/
-│   ├── README.md                    O que são skills
-│   ├── study-plan/                  Skill: plano de estudos
-│   ├── unblock-challenge/           Skill: destravar desafio
-│   ├── explain-concept/             Skill: explicar conceito
-│   ├── web-search/                  Skill: pesquisa na web
-│   └── portfolio-review/            Skill: revisão de portfólio
-│
+│   ├── persona.md           A personalidade e o tom do agente
+│   └── knowledge/           O que o agente sabe sobre a DIO
+├── skills/                  Uma pasta por skill, cada uma com o seu SKILL.md
 └── docs/
-    ├── glossary.md                  Glossário de termos
-    └── youcom-mcp.md                Como conectar a busca do You.com
+    ├── glossary.md          Glossário de termos
+    └── youcom-mcp.md        Como conectar a busca do You.com
 ```
-
-> 🔍 **Por que funciona em qualquer harness?** O coração do projeto é o arquivo `AGENTS.md`, um padrão aberto que harnesses modernos sabem ler. O `CLAUDE.md` apenas aponta para ele, então você pode usar o harness que preferir.
 
 ---
 
-## 📖 Glossário rápido
+## 🤝 Contribua
 
-Termos como *agente*, *harness*, *skill* e *prompt* estão explicados com analogias simples no **[Glossário completo](docs/glossary.md)**. Se algum termo soar estranho, comece por lá.
+Tem uma ideia de skill? Veja [como criar uma skill](skills/README.md) e abra um pull request.
 
 ---
 
 ## 💬 Sobre este projeto
 
-O DIO Agent foi criado para acompanhar você desde o início dos Bootcamps e Formações da DIO. A ideia é simples: aprender na era da IA fica mais fácil quando você tem um mentor disponível a qualquer hora.
+O DIO Agent foi criado para acompanhar você nos Bootcamps e Formações da DIO. A ideia é simples: aprender na era da IA fica mais fácil quando você tem um mentor disponível a qualquer hora.
 
 Bons estudos, e vem com a gente. 🚀
