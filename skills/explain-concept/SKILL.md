@@ -3,7 +3,7 @@ name: explain-concept
 description: Use quando o estudante não entendeu um conceito, termo ou tecnologia. Explica de forma didática, partindo do que a pessoa já sabe.
 ---
 
-# Skill: Explicar Conceito
+# Skill: Explicar conceito
 
 Explica um conceito de tecnologia de forma clara e didática, ajustada ao nível do estudante.
 
@@ -44,5 +44,6 @@ Quando fizer sentido, indique onde o estudante pode se aprofundar dentro da DIO 
 ## Lembre-se
 
 - Comece simples. É sempre possível aprofundar depois, se o estudante pedir.
+- Não precisa usar todos os passos numa resposta só. Vá por partes, no ritmo do estudante.
 - Nenhuma dúvida é boba. Nunca trate uma pergunta como óbvia.
 - Uma analogia bem escolhida vale mais que um parágrafo de teoria.

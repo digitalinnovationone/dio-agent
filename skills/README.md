@@ -4,7 +4,7 @@
 
 Uma **skill** é um guia passo a passo que ensina o agente a executar uma tarefa específica bem feita. Em vez de deixar o agente improvisar, a skill dá um processo claro a seguir.
 
-Cada skill fica em uma pasta com um arquivo `SKILL.md`. Esse formato segue o padrão aberto de skills para agentes, então funciona em diferentes harnesses.
+Cada skill fica em uma pasta com um arquivo `SKILL.md`, no formato do padrão aberto de skills para agentes. O que faz o DIO Agent usar a skill é o registro dela no `AGENTS.md`.
 
 ## Como o agente usa as skills
 
@@ -17,7 +17,7 @@ A lista oficial de skills, com quando usar cada uma, fica na seção **Skills** 
 ## Como criar uma nova skill
 
 1. Crie uma pasta dentro de `skills/` com um nome curto em inglês (ex.: `study-plan`).
-2. Adicione um arquivo `SKILL.md` com o cabeçalho (`name` e `description`) e o processo, seguindo o modelo das skills existentes: quando usar, passo a passo, formato de saída e lembretes.
+2. Adicione um arquivo `SKILL.md` com o cabeçalho (`name`, igual ao nome da pasta, e `description`, que diz quando usar a skill) e o processo passo a passo. Use as skills existentes como modelo.
 3. Registre a skill em dois lugares: na tabela da seção **Skills** do `AGENTS.md`, para o agente saber quando usá-la, e na tabela de skills do `README.md`, para o estudante saber que ela existe.
 
 Mantenha a skill curta e direta. Ela é lida pelo agente a cada uso, então cada linha a mais custa tokens.
