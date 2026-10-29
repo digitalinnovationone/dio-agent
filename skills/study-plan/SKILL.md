@@ -23,7 +23,7 @@ E baseie o plano no **conteúdo real** dessa experiência (os módulos da Landin
 
 ### 1. Entenda o objetivo e o perfil
 
-Faça perguntas, uma de cada vez, para entender:
+Se o estudante já trouxe um objetivo claro ou um plano de ação (por exemplo, o planner que montou em um curso), parta dele e pergunte só o que faltar. Caso contrário, faça perguntas, uma de cada vez, para entender:
 - O objetivo dele (por exemplo: primeiro emprego, mudar de área, concluir um bootcamp específico).
 - O nível atual no assunto (nunca estudou, sabe o básico, já tem experiência).
 - Quanto tempo por dia ou por semana ele consegue dedicar, e em quais dias.
@@ -35,23 +35,21 @@ O perfil é importante: quanto melhor você o conhece, mais simples e executáve
 
 O plano precisa seguir os módulos reais da trilha, não o seu conhecimento geral do tema. Mas conseguir esses módulos tem que ser barato e rápido.
 
-> IMPORTANTE: **Nunca escreva nem rode scripts ou código para ler, baixar ou raspar a página.** Abrir uma página é uma ação direta do harness, não uma tarefa de programação. Se você se pegar criando um arquivo `.py`, instalando bibliotecas ou vasculhando HTML/JSON, pare na hora: isso queima tokens e não é necessário. E não busque a ementa perfeita e completa, uma visão geral dos módulos principais já basta.
+> IMPORTANTE: **Nunca escreva nem rode scripts para ler, baixar ou raspar a página** (veja a regra 8 do `AGENTS.md`). E não busque a ementa perfeita e completa: uma visão geral dos módulos principais já basta.
 
 Siga esta ordem e pare assim que tiver os módulos:
 
-1. **Monte a URL da LP pública.** O estudante costuma compartilhar o link de acesso interno, no padrão `https://web.dio.me/track/SLUG`. O slug é a parte final dele. Por exemplo, de `https://web.dio.me/track/lupo-primeiros-passos-com-inteligencia-artificial`, o slug é `lupo-primeiros-passos-com-inteligencia-artificial`. Monte a página pública conforme o tipo:
+1. **Encontre a LP pública.** O estudante costuma compartilhar o link de acesso interno, no padrão `https://web.dio.me/track/SLUG`. O slug é a parte final dele. Se o tipo não estiver claro (o link `track/SLUG` é igual para todos), use as pistas da conversa ou pergunte ao estudante.
 
-   | Tipo | Padrão da LP pública |
-   |------|----------------------|
-   | Bootcamp | `https://www.dio.me/bootcamp/SLUG` |
-   | Formação | `https://www.dio.me/curso-SLUG` |
+   | Tipo | Onde fica a LP pública |
+   |------|------------------------|
+   | Bootcamp | `https://www.dio.me/bootcamp/SLUG`, com o mesmo slug da trilha |
+   | Formação | `https://www.dio.me/curso-...`, mas com um slug próprio, diferente do da trilha. Por exemplo, a trilha `ai-builder-com-lovable` tem a LP `curso-ia-builder-com-lovable`. Não monte a URL: encontre pela busca do passo 3 |
    | Aceleração | `https://www.dio.me/acceleration/SLUG` |
-
-   A Formação usa o prefixo `curso-` por questão de SEO, mas é uma Formação completa. Se o tipo não estiver claro (o link `track/SLUG` é igual para os três), use as pistas da conversa ou pergunte ao estudante.
 
 2. **Leia a página uma única vez** com o navegador ou leitor de páginas nativo do harness e anote os títulos dos módulos. Uma leitura basta. Se o conteúdo vier como HTML ou JSON cru, apenas localize os títulos legíveis dos módulos, sem escrever código para interpretar.
 
-3. **Se a página não abrir ou não vier legível**, faça no máximo uma busca por `site:dio.me {tipo} {nome da experiência}` para encontrar a página certa. Se ainda assim não resolver, peça ao estudante para colar a lista de módulos ou enviar um print. Ele está com a trilha aberta, então é rápido e confiável. Nunca invente os módulos a partir do nome.
+3. **Se a página não abrir, não vier legível ou for uma Formação**, faça no máximo uma busca por `site:dio.me {tipo} {nome da experiência}` para encontrar a página certa. Se ainda assim não resolver, peça ao estudante para colar a lista de módulos ou enviar um print. Ele está com a trilha aberta, então é rápido e confiável. Nunca invente os módulos a partir do nome.
 
 > ℹ️ A contagem de "horas de conteúdo" costuma vir como `0` numa leitura direta, porque é um contador dinâmico da página. Não use esse `0`: dimensione o plano pela quantidade de módulos.
 

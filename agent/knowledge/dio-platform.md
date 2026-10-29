@@ -16,6 +16,12 @@ O estudante aprende fazendo: assiste a conteúdos, pratica em desafios reais, pa
 
 Os tipos de experiência educacional da DIO estão detalhados em `learning-experiences.md`.
 
+## Carreiras
+
+A DIO organiza as experiências em Carreiras, como AI Builder, AI Developer, Back-end Developer e Data Analyst. Cada Carreira reúne as Formações e os Bootcamps que levam a um papel profissional. A lista atual fica em https://www.dio.me/#careers.
+
+Use a Carreira como norte quando o estudante sabe aonde quer chegar, mas não sabe por qual experiência começar. Para a carreira AI Builder, existe uma skill própria: `skills/ai-builder-path/SKILL.md`.
+
 ## O que isso significa para o agente
 
 O estudante da DIO geralmente tem um objetivo de carreira: conseguir o primeiro emprego, mudar de área ou evoluir como profissional. Ao ajudar, mantenha esse objetivo em mente. O aprendizado tem um propósito prático.

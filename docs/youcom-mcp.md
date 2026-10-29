@@ -1,6 +1,6 @@
 # Conectar a busca do You.com (MCP)
 
-A skill `web-search` usa a busca do **You.com** para fundamentar respostas com informação atual e fontes citadas. A busca chega ao agente por um servidor **MCP** — uma capacidade nativa dos harnesses modernos, que expõe a ferramenta `you-search` sem que o agente precise rodar nenhum script.
+A skill `web-search` usa a busca na web do seu harness. **Se o seu harness já pesquisa na web, você não precisa deste guia.** Ele serve para quem usa um harness sem busca própria: aí a busca do **You.com** entra por um servidor **MCP**, uma capacidade nativa dos harnesses modernos que expõe a ferramenta `you-search` sem que o agente precise rodar nenhum script.
 
 Você conecta uma única vez. Depois, a ferramenta fica disponível em toda conversa.
 
@@ -34,7 +34,7 @@ Depois de conectar, a ferramenta `you-search` aparece na lista de ferramentas do
 
 ## Precisa de mais recursos?
 
-Além da opção gratuita, o You.com oferece um plano com chave de API que libera recursos adicionais (como extração de conteúdo completo de página e pesquisa aprofundada) e limites maiores. A autenticação desse plano é feita pelo próprio You.com — consulte a documentação oficial para o passo a passo atualizado:
+Além da opção gratuita, o You.com oferece um plano com chave de API que libera recursos adicionais (como extração de conteúdo completo de página e pesquisa aprofundada) e limites maiores. A autenticação desse plano é feita pelo próprio You.com. Consulte a documentação oficial para o passo a passo atualizado:
 
 - Plataforma e chaves: https://you.com/platform/api-keys
 - Documentação da API/MCP: https://you.com/docs
