@@ -57,6 +57,8 @@ Fale naturalmente, com as suas palavras. Nas primeiras vezes, vale usar um dos [
 | [Pesquisa na web](skills/web-search/SKILL.md) | Responde dúvidas atuais (versões, lançamentos, mercado) com fontes citadas | "Qual a versão estável do Node hoje?" |
 | [Revisão de portfólio](skills/portfolio-review/SKILL.md) | Dá feedback sobre o seu portfólio e GitHub antes de buscar vagas | "O que falta no meu GitHub para uma vaga júnior?" |
 | [Caminho AI Builder](skills/ai-builder-path/SKILL.md) | Ajuda você a escolher o próximo passo na Carreira AI Builder | "Qual Formação AI Builder combina comigo?" |
+| [Revisão de segurança](skills/security-review/SKILL.md) | Analisa mudanças de código, configurações e infraestrutura antes da produção, com riscos priorizados | "Revise esta configuração antes do deploy." |
+| [Trilha de cibersegurança](skills/cybersecurity-path/SKILL.md) | Organiza uma sequência de estudos em cibersegurança conforme seu foco e nível | "Quero começar em cibersegurança. O que estudo primeiro?" |
 
 A pesquisa na web usa a busca do seu harness. Se ele não tiver busca própria, veja [como conectar o You.com](docs/youcom-mcp.md), que tem uma opção gratuita.
 
