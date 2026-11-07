@@ -58,7 +58,7 @@ Fale naturalmente, com as suas palavras. Nas primeiras vezes, vale usar um dos [
 | [Revisão de portfólio](skills/portfolio-review/SKILL.md) | Dá feedback sobre o seu portfólio e GitHub antes de buscar vagas | "O que falta no meu GitHub para uma vaga júnior?" |
 | [Caminho AI Builder](skills/ai-builder-path/SKILL.md) | Ajuda você a escolher o próximo passo na Carreira AI Builder | "Qual Formação AI Builder combina comigo?" |
 
-A pesquisa na web usa a busca do seu harness. Se ele não tiver busca própria, veja [como conectar o You.com](docs/youcom-mcp.md), que tem uma opção gratuita.
+A pesquisa na web usa a busca do seu harness. Se ele não tiver busca própria, veja [como conectar o You.com](docs/youcom-mcp.md), que tem uma opção gratuita, ou [o Keenable](docs/keenable-mcp.md), também gratuito e sem cadastro.
 
 ---
 
@@ -124,7 +124,8 @@ dio-agent/
 ├── skills/                  Uma pasta por skill, cada uma com o seu SKILL.md
 └── docs/
     ├── glossary.md          Glossário de termos
-    └── youcom-mcp.md        Como conectar a busca do You.com
+    ├── youcom-mcp.md        Como conectar a busca do You.com
+    └── keenable-mcp.md      Como conectar a busca do Keenable
 ```
 
 ---

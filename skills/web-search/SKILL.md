@@ -23,8 +23,9 @@ Se a dúvida for sobre um conceito estável (o que é uma variável, como funcio
 
 1. **A busca nativa do harness.** A maioria dos harnesses já pesquisa na web sozinha. Use essa ferramenta primeiro.
 2. **O You.com, se o harness não tiver busca.** Ele se conecta como um servidor MCP, com uma opção gratuita e sem cadastro, e expõe a ferramenta `you-search`. O passo a passo está em `docs/youcom-mcp.md`.
+3. **Ou o Keenable, outra opção gratuita e sem cadastro.** Também se conecta como um servidor MCP e expõe a ferramenta `search_web_pages`. O passo a passo está em `docs/keenable-mcp.md`.
 
-Se nenhuma das duas estiver disponível, avise o estudante e siga com o que você já sabe, deixando claro o que não pôde confirmar. Nunca escreva scripts para buscar ou raspar páginas (veja a regra 8 do `AGENTS.md`).
+Se nenhuma delas estiver disponível, avise o estudante e siga com o que você já sabe, deixando claro o que não pôde confirmar. Nunca escreva scripts para buscar ou raspar páginas (veja a regra 8 do `AGENTS.md`).
 
 ## Processo
 
