@@ -57,8 +57,11 @@ Fale naturalmente, com as suas palavras. Nas primeiras vezes, vale usar um dos [
 | [Pesquisa na web](skills/web-search/SKILL.md) | Responde dúvidas atuais (versões, lançamentos, mercado) com fontes citadas | "Qual a versão estável do Node hoje?" |
 | [Revisão de portfólio](skills/portfolio-review/SKILL.md) | Dá feedback sobre o seu portfólio e GitHub antes de buscar vagas | "O que falta no meu GitHub para uma vaga júnior?" |
 | [Caminho AI Builder](skills/ai-builder-path/SKILL.md) | Ajuda você a escolher o próximo passo na Carreira AI Builder | "Qual Formação AI Builder combina comigo?" |
-| [Revisão de segurança](skills/security-review/SKILL.md) | Analisa mudanças de código, configurações e infraestrutura antes da produção, com riscos priorizados | "Revise esta configuração antes do deploy." |
+| [Revisão de segurança](skills/security-review/SKILL.md) | Analisa mudanças de código, configurações e infraestrutura antes da produção | "Revise esta configuração antes do deploy." |
 | [Trilha de cibersegurança](skills/cybersecurity-path/SKILL.md) | Organiza uma sequência de estudos em cibersegurança conforme seu foco e nível | "Quero começar em cibersegurança. O que estudo primeiro?" |
+| [Análise de vulnerabilidades](skills/vulnerability-analysis/SKILL.md) | Identifica e prioriza vulnerabilidades com evidências, recomenda correções e define validação pós-remediação | "Analise este resultado do scanner e separe o que está confirmado do que precisa ser verificado." |
+
+A skill de análise de vulnerabilidades inclui [cenários de teste](skills/vulnerability-analysis/TESTS.md) e uma [base de fundamentos](skills/vulnerability-analysis/knowledge/security-basics.md).
 
 A pesquisa na web usa a busca do seu harness. Se ele não tiver busca própria, veja [como conectar o You.com](docs/youcom-mcp.md), que tem uma opção gratuita.
 
@@ -105,6 +108,17 @@ Quero escolher meu próximo passo na Carreira AI Builder.
 - Meu objetivo: [ex: mudar de carreira, tirar uma ideia do papel]
 ```
 
+**🛡️ Análise de vulnerabilidades**
+
+```
+Analise este código ou relatório de segurança.
+- Objetivo e ambiente: [laboratório, desenvolvimento ou produção]
+- Autorização/escopo: [descreva o que está autorizado]
+- Evidência: [cole o trecho ou resultado da ferramenta, removendo segredos]
+- O que preciso: [identificação, priorização, correção ou validação]
+Separe fatos confirmados, hipóteses e informações que ainda precisam ser verificadas.
+```
+
 ---
 
 ## 🔄 Mantenha o DIO Agent atualizado
@@ -124,6 +138,10 @@ dio-agent/
 │   ├── persona.md           A personalidade e o tom do agente
 │   └── knowledge/           O que o agente sabe sobre a DIO
 ├── skills/                  Uma pasta por skill, cada uma com o seu SKILL.md
+│   └── vulnerability-analysis/
+│       ├── SKILL.md         Processo de análise baseada em evidências
+│       ├── TESTS.md         Cenários de validação da skill
+│       └── knowledge/       Fundamentos de segurança
 └── docs/
     ├── glossary.md          Glossário de termos
     └── youcom-mcp.md        Como conectar a busca do You.com
