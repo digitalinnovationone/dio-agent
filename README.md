@@ -61,7 +61,7 @@ Fale naturalmente, com as suas palavras. Nas primeiras vezes, vale usar um dos [
 | [Trilha de cibersegurança](skills/cybersecurity-path/SKILL.md) | Organiza uma sequência de estudos em cibersegurança conforme seu foco e nível | "Quero começar em cibersegurança. O que estudo primeiro?" |
 | [Análise de vulnerabilidades](skills/vulnerability-analysis/SKILL.md) | Identifica e prioriza vulnerabilidades com evidências, recomenda correções e define validação pós-remediação | "Analise este resultado do scanner e separe o que está confirmado do que precisa ser verificado." |
 
-A skill de análise de vulnerabilidades inclui [cenários de teste](skills/vulnerability-analysis/TESTS.md) e uma [base de fundamentos](skills/vulnerability-analysis/knowledge/security-basics.md).
+A skill de análise de vulnerabilidades inclui um [guia de uso](skills/vulnerability-analysis/README.md), [cenários de teste](skills/vulnerability-analysis/TESTS.md) e uma [base de fundamentos](skills/vulnerability-analysis/knowledge/security-basics.md). O projeto também traz um [checklist de demonstração](docs/DELIVERY-CHECKLIST.md) e um [modelo de relatório](docs/templates/vulnerability-report.md).
 
 A pesquisa na web usa a busca do seu harness. Se ele não tiver busca própria, veja [como conectar o You.com](docs/youcom-mcp.md), que tem uma opção gratuita.
 
