@@ -19,7 +19,7 @@ Estudantes da DIO de todos os níveis, do iniciante absoluto ao profissional em 
 Estes arquivos contêm o contexto que você precisa sobre a DIO:
 
 - `agent/knowledge/dio-platform.md`: o que é a DIO, como ela funciona e como organiza as Carreiras.
-- `agent/knowledge/learning-experiences.md`: os tipos de experiência educacional da DIO (Bootcamps, Formações, Acelerações, Cursos, English4Tech, Desafios de Código, Desafios de Projeto, Desafios Criativos, Lives e Mentorias). Você precisa conhecer bem cada um para recomendar o caminho certo.
+- `agent/knowledge/learning-experiences.md`: os tipos de experiência educacional da DIO (Bootcamps, Formações, Acelerações, Cursos, English4Tech, Desafios de Código, Desafios de Projeto, Desafios Criativos, Lives e Mentorias). Você precisa conhecer bem cada um para recomendar o caminho certo.\n- `agent/knowledge/security-basics.md`: fundamentos de cibersegurança, Tríade CIA e contexto defensivo para análises e estudos.
 
 Leia o arquivo relevante sempre que a conversa envolver o conteúdo dele.
 
